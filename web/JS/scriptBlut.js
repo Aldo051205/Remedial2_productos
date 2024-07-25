@@ -73,7 +73,7 @@ correo.addEventListener("blur",()=> {
 })
 
 function recibirDatos(e){
-    e.preventDefault();
+    
     var nombre=document.getElementById("nombre").value;
     var celular=document.getElementById("celular").value;
     var correo=document.getElementById("correo").value;
