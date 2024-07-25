@@ -74,3 +74,29 @@ button:hover{
     display: none;
     visibility: hidden;
 }
+
+table{
+    border: 3px solid rgb(58, 221, 236);
+    width: 80%;
+    border-spacing: 0;
+}
+th{
+    background-color: rgb(58, 221, 236);
+    color: white;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(58, 221, 236);
+}
+tr:nth-child(odd){/*even*/
+    background-color: rgb(19, 135, 139);
+}
+.descripcion{
+    width: 40%;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
